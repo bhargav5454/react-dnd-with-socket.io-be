@@ -7,7 +7,6 @@ const { initWebSocket } = require("./services/websocket");
 
 const app = express();
 
-
 // CORS setup
 app.use(
   cors({
